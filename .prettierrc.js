@@ -1,1 +1,5 @@
-{ semi: false, trailingComma: 'all', singleQuote: true }
+// Configure Prettier formatting options
+module.exports = {
+  singleQuote: true,
+  trailingComma: 'all'
+};

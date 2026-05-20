@@ -1,5 +1,6 @@
-{
-  "presets": [
-    "@react-native/babel-preset"
+// Add babel presets if needed
+module.exports = {
+  presets: [
+    // Example: ['@babel/preset-env', { targets: 'defaults' }]
   ]
-}
+};
