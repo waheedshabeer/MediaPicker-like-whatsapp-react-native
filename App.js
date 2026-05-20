@@ -1,13 +1,13 @@
-// Import necessary components here
+// Import necessary React and ReactDOM libraries
 import React from 'react';
 import { View, Text } from 'react-native';
 
-function App() {
+const App = () => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hello, Qwen!</Text>
+      <Text>Hello, World!</Text>
     </View>
   );
-}
+};
 
 export default App;
