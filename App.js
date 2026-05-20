@@ -1,8 +1,13 @@
-/* eslint-disable-next-line react-native/no-unused-vars */
+// Import necessary components here
 import React from 'react';
+import { View, Text } from 'react-native';
 
-const App = () => {
- return <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>Hello World!</View>;
-};
+function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Hello, Qwen!</Text>
+    </View>
+  );
+}
 
 export default App;
