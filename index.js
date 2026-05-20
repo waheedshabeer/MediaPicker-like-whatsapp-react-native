@@ -1,3 +1,5 @@
-#!/usr/bin/env node
-const { register } = require('expo-cli');
-register();
+import { AppRegistry } from 'react-native';
+
+import App from './App';
+
+AppRegistry.registerComponent('yourProjectName', () => App);
