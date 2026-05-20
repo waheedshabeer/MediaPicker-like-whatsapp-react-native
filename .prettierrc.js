@@ -1,2 +1,1 @@
-// Add Prettier configuration rules here
-module.exports = {};
+{ semi: false, trailingComma: 'all', singleQuote: true }

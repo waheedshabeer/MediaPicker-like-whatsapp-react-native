@@ -1,5 +1,13 @@
-import { AppRegistry } from 'react-native';
+// Import necessary React Native modules and libraries
+import { SafeAreaView, StyleSheet } from 'react-native';
 
-import App from './App';
+// Main component of the application
+const App = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Text>Hello World!</Text>
+    </SafeAreaView>
+  )
+}
 
-AppRegistry.registerComponent('yourProjectName', () => App);
+export default App;
