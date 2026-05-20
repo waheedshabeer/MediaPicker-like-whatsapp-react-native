@@ -1,6 +1,7 @@
-// Add babel presets if needed
+// Add Babel configuration here, e.g.
 module.exports = {
   presets: [
-    // Example: ['@babel/preset-env', { targets: 'defaults' }]
+    '@babel/preset-env',
+    '@babel/preset-react'
   ]
 };
