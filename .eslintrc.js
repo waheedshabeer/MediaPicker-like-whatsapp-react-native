@@ -1,1 +1,3 @@
-{}
+{
+  "extends": "react-native"
+}
