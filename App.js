@@ -1,12 +1,16 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-
-const App = () => {
+// Update your App component here
+function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hello, World!</Text>
+    <View style={styles.container}>
+      <Text>Hello, React Native!</Text>
     </View>
-  );
-};
+  )
+}
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
