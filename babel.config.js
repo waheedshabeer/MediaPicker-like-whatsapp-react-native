@@ -1,4 +1,5 @@
-// Babel configuration file
 module.exports = {
-  presets: ['@react-native/babel-preset'],
+  presets: [
+    '@react-native/babel-preset-expo'
+  ]
 };
