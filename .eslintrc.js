@@ -1,2 +1,4 @@
-// Add your ESLint configuration here
-module.exports = {};
+// eslint-disable-next-line react/no-unstable-nested-props
+module.exports = {
+  extends: 'react-native'
+};
