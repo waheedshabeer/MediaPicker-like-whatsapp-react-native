@@ -1,3 +1,4 @@
+// Add necessary Babel presets here
 module.exports = {
-  presets: ['@react-native-community/babel-preset'],
+  presets: ['react-native'],
 };
