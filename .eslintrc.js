@@ -1,10 +1,8 @@
-// Enable ESLint for React Native projects
+// Your ESLint configuration
 module.exports = {
-  extends: [
-    'react-native',
-    'plugin:@typescript-eslint/recommended'
-  ],
-  rules: {
-    // Customize your rules here if needed
-  }
+  root: true,
+  parser: '@babel/eslint-parser',
+  extends: ['react-native'],
+  plugins: [],
+  rules: {},
 };
