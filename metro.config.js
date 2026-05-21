@@ -1,4 +1,3 @@
-// Add necessary Metro configurations here
-const { getDefaultConfig } = require('@react-native/metro-config');
-
-module.exports = getDefaultConfig(__dirname);
+module.exports = {
+  transformer: require.resolve('react-native-transformer-haste'),
+};
