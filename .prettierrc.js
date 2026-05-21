@@ -1,2 +1,1 @@
-// Your Prettier configuration
-module.exports = {};
+// Add your Prettier configuration here
