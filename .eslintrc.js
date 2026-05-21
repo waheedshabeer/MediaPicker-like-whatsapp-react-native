@@ -1,9 +1,10 @@
-// Add necessary ESLint rules here
+// Enable ESLint for React Native projects
 module.exports = {
-  extends: 'react-native',
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
+  extends: [
+    'react-native',
+    'plugin:@typescript-eslint/recommended'
+  ],
+  rules: {
+    // Customize your rules here if needed
+  }
 };

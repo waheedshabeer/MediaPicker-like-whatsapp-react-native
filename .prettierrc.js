@@ -1,5 +1,6 @@
-// Add necessary Prettier configurations here
+// Use Prettier for consistent code formatting
 module.exports = {
-  printWidth: 80,
-  trailingComma: 'all',
+  singleQuote: true,
+  semi: false,
+  trailingComma: 'all'
 };
