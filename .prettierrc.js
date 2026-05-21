@@ -1,5 +1,8 @@
-{
-  "semi": true,
-  "trailingComma": "all",
-  "singleQuote": true
-}
+// Example Prettier configuration
+module.exports = {
+  singleQuote: true,
+  trailingComma: 'all',
+  printWidth: 80,
+  tabWidth: 2,
+  semi: true
+};

@@ -1,10 +1,7 @@
-{
-  "extends": [
-    "airbnb",
-    "plugin:react/recommended"
-  ],
-  "rules": {
-    "no-console": [2, { "allow": ["warn", "error"] }],
-    "import/no-default-export": [0]
+// Example ESLint configuration
+module.exports = {
+  extends: 'react-native',
+  rules: {
+    // Custom rules can be added here
   }
-}
+};
