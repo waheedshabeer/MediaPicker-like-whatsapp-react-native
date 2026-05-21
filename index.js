@@ -1,10 +1,13 @@
+// Import necessary components and logic here
 import React from 'react';
-import App from './App';
+import { View, Text } from 'react-native';
 
-export default function Main() {
+const App = () => {
   return (
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Hello Qwen!</Text>
+    </View>
   );
-}
+};
+
+export default App;
