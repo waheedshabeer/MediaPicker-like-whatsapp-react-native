@@ -1,1 +1,1 @@
-// Your main entry point code here
+/* Add comments to the index file to make it more readable. */

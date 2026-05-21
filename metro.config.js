@@ -1,13 +1,9 @@
-// Example Metro configuration file
-const { getDefaultConfig } = require('metro-config');
-
-module.exports = (async () => {
-  const defaultConfig = await getDefaultConfig();
-
-  return {
-    ...defaultConfig,
-    resolver: {
-      blacklistNodeModules: [],
+module.exports = {
+  // Enable Babel's transform-runtime plugin.
+  transformer: {
+    getTransformModulePath: function () {
+      return require.resolve('@babel/core');
     },
-  };
-})();
+    presets: ['react-native'],
+  },
+};
