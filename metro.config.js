@@ -1,3 +1,2 @@
-module.exports = {
-  transformer: require.resolve('react-native-transformer-haste'),
-};
+// Add your Metro config here
+module.exports = {};

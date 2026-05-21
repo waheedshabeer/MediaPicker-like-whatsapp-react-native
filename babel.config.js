@@ -1,3 +1,2 @@
-module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
-};
+// Add your Babel config here
+module.exports = {};
