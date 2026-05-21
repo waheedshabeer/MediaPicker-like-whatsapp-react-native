@@ -1,1 +1,1 @@
-module.exports = { extends: 'react-native', rules: {} };
+// Add ESLint rules here

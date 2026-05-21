@@ -1,1 +1,1 @@
-{}
+// Add Prettier configuration here
