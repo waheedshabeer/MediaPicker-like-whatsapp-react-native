@@ -1,4 +1,1 @@
-{
-  singleQuote: true,
-  semi: false
-}
+module.exports = { trailingComma: 'all', semi: false };

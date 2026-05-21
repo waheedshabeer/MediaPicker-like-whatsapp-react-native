@@ -1,3 +1,1 @@
-{
-  extends: 'react-native'
-}
+module.exports = { env: { jest: true }, extends: ['eslint:recommended'], rules: { 'no-console': 'off' } };
