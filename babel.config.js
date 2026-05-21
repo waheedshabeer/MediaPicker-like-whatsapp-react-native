@@ -1,2 +1,5 @@
-// Add your Babel config here
-module.exports = {};
+module.exports = () => ({
+  presets: [
+    'react-native',
+  ],
+});
