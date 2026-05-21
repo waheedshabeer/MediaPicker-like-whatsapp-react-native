@@ -1,4 +1,3 @@
-// Import necessary React and ReactDOM libraries
 import React from 'react';
 import { View, Text } from 'react-native';
 
