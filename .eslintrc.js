@@ -1,6 +1,7 @@
+// Add ESLint configuration rules here
 module.exports = {
   extends: 'react-native',
   rules: {
-    'no-console': ['error']
+    // Custom rules can be added here
   }
 };
