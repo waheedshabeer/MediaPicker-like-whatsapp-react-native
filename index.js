@@ -1,13 +1,1 @@
-// Import necessary components and logic here
-import React from 'react';
-import { View, Text } from 'react-native';
-
-const App = () => {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hello Qwen!</Text>
-    </View>
-  );
-};
-
-export default App;
+// Add your app entry point here

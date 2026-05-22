@@ -1,1 +1,1 @@
-{ presets: ['@react-native-community/babel-preset'] }
+// Add your Babel configuration here
