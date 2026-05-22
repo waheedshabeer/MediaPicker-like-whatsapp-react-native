@@ -1,12 +1,3 @@
-import React from 'react';
-import { View } from 'react-native';
+#!/usr/bin/env node
 
-function App() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hello World!</Text>
-    </View>
-  );
-}
-
-export default App;
+require('./App');
