@@ -1,5 +1,4 @@
-// Update Metro config to include custom rules or plugins
+// Add your Metro configuration here
+// Example:
 const { getDefaultConfig } = require('@react-native/metro-config');
-
 module.exports = getDefaultConfig(__dirname);
-// Add custom configurations here if needed
