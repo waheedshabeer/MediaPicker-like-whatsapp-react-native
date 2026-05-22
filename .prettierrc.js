@@ -1,1 +1,1 @@
-// Add your Prettier configuration here
+{}

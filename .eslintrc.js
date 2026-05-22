@@ -1,1 +1,4 @@
-// Add your ESLint configuration here
+// Your ESLint configuration settings here
+module.exports = {
+  extends: 'react-native',
+};
